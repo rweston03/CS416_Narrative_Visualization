@@ -98,7 +98,6 @@ function drawFertilityChart(chartData, region, incomeGroup) {
         }))
         .style("fill", function (d) { return regionColors[d.Region] })
         .on("mouseover", function(d,i) {
-            console.log(d)
             d3.select('.tooltip')
             tooltip.transition()
                 .duration(200)
