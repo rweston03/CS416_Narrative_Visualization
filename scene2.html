@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <script type="text/javascript" src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.min.js"></script>
+    <script type="text/javascript" src="utilities.js"></script>
+    <script type="text/javascript" src="scene2.js"></script>
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
         <title>CS416-Narrative Visualization</title>
     </head>
-    <body onload="load();">
+    <body onload="loadScene2();">
         <div class="container column">
             <h1 class="text-center">CS 416 Narrative Visualization</h1>
-            <h2 class="text-center">Average Infant Mortality Rate Versus Average Female Secondary School Enrollment</h2>
             <div class="pagination">
                 <a href="index.html">&laquo;</a>
                 <a href="index.html">1</a>
@@ -17,10 +18,9 @@
                 <a href="scene3.html">3</a>
                 <a href="scene3.html">&raquo;</a>
             </div>
+            <h2 class="text-center">Average Infant Mortality Rate Versus Average Female Secondary School Enrollment</h2>
             <div class="container row">
-                <div id="canvas" class="w80">
-                    
-                </div>
+                <div id="canvas" class="w80"></div>
                 <div id="legend" class="container column w20">
                     <ul>
                         <h3>Regions:</h3>
@@ -33,7 +33,7 @@
                         <li class="yellow">Sub-Saharan Africa</li>
                     </ul>
                     <ul>
-                        <h3>Country Income Level:</h3>
+                        <h3>Country Income Group:</h3>
                         <li>&#9670; - High Income</li>
                         <li>&#9724; - Upper Middle Income</li>
                         <li>&#9679; - Lower Middle Income</li>
@@ -42,6 +42,6 @@
                 </div>
             </div>
         </div>
-        <script src="index.js"></script>
+        <script src="scene2.js"></script>
     </body>
 </html>

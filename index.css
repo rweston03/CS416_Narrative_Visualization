@@ -32,32 +32,92 @@
     width: 20%
 }
 
+
+.dot {
+    fill: grey;
+    stroke: grey;
+}
+
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background-color: #eee;
+}
+
+.annotation-group {
+    font-size: .75em;
+}
+
+button {
+    margin: 1% 0;
+}
+
+ul, h4 {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
 .lightBlue {
     color: var(--light-blue)
+}
+
+button.lightBlue {
+    color: white;
+    background-color: var(--light-blue)
 }
 
 .orange {
     color: var(--orange)
 }
 
+button.orange {
+    color: white;
+    background-color: var(--orange)
+}
+
 .yellow {
     color: var(--yellow)
+}
+
+button.yellow {
+    color: white;
+    background-color: var(--yellow)
 }
 
 .red {
     color: var(--red)
 }
 
+button.red {
+    color: white;
+    background-color: var(--red)
+}
+
 .green {
     color: var(--green)
+}
+
+button.green {
+    color: white;
+    background-color: var(--green)
 }
 
 .purple {
     color: var(--purple)
 }
 
+button.purple {
+    color: white;
+    background-color: var(--purple)
+}
+
 .darkBlue {
     color: var(--dark-blue)
+}
+
+button.darkBlue {
+    color: white;
+    background-color: var(--dark-blue)
 }
 
 .pagination {
