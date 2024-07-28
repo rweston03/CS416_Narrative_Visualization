@@ -1,0 +1,83 @@
+:root {
+    --light-blue: #61B2D0;
+    --orange: #FF5F05;
+    --yellow: #F2C216;
+    --red: #BF1515;
+    --green: #AEBF2C;
+    --purple: #8A3680;
+    --dark-blue: #345AA1;
+}
+
+.container {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.w80 {
+    width: 80%
+}
+
+.w20 {
+    width: 20%
+}
+
+.lightBlue {
+    color: var(--light-blue)
+}
+
+.orange {
+    color: var(--orange)
+}
+
+.yellow {
+    color: var(--yellow)
+}
+
+.red {
+    color: var(--red)
+}
+
+.green {
+    color: var(--green)
+}
+
+.purple {
+    color: var(--purple)
+}
+
+.darkBlue {
+    color: var(--dark-blue)
+}
+
+.pagination {
+    display: block;
+    margin: 0px auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: var(--orange);
+    color: white;
+    border: 1px solid var(--orange);
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
