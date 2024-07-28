@@ -1,4 +1,3 @@
-
 const incomeLevels = ["High income", "Upper middle income", "Lower middle income", "Low income"];
 const incomeLevelColors = {
     "High income" : "",
@@ -31,7 +30,6 @@ var margin = {top: 10, right: 30, bottom: 30, left: 60},
 var symbol = d3.symbol();
 
 async function load() {
-    const data = await d3.csv("WDI-Country-Data.csv")
+    const data = await d3.csv("https://rweston03.github.io/CS416_Narrative_Visualization//WDI-Filtered-Secondary-School.csv")
     console.log(data)
-    console.log("wtf")
 }
