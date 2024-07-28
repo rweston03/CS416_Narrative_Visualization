@@ -33,4 +33,5 @@ var symbol = d3.symbol();
 async function load() {
     const data = await d3.csv("WDI-Country-Data.csv")
     console.log(data)
+    console.log("wtf")
 }
